@@ -1,13 +1,49 @@
 body{
-    background: #eaeaea;
+    background: gainsboro;
     margin:0;
     padding: 0;
     display: flex;
     justify-content: center;
+    
 }
+
 .header{
     width: 100%;
     background-color: white;
     text-align: center;
     color: black;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
+.post{
+    background-color: white;
+    width: 600px;
+    
+}
+.post-header{
+    padding:0px 14px;
+    overflow: hidden;
+}
+.header-titulo{
+    
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+.header-fecha{
+    
+    text-align:right;
+    color:grey;
+}
+.imagen{
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+img{
+    max-width: 600px;
+}
+
+.comentario{
+    padding:0px 20px;
+}
+
