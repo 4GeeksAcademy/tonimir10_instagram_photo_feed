@@ -1,0 +1,13 @@
+body{
+    background: #eaeaea;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
